@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+     <title>Hesap Makinesi</title>
+
+
+  </head>
+<body>
+  <h5>Hesap Makinesi</h5>
+    <div class="Hesap Makinesi">
+        <input type="text" class="Hesap Makinesi-input" value="666">
+        <br>
+        <div class="Hesap Makinesi-keys">
+        <button type="button" value="C">C</button>
+        <button type="button" value="1">1</button>
+        <button type="button" value="2">2</button>
+        <button type="button" value="+">+</button>
+        <br>
+        <button type="button" value="3">3</button>
+        <button type="button" value="4">4</button>
+        <button type="button" value="5">5</button>
+        <button type="button" value="-">-</button>
+        <br>
+        <button type="button" value="6">6</button>
+        <button type="button" value="7">7</button>
+        <button type="button" value="8">8</button>
+        <button type="button" value="*">*</button>
+        <br>
+        <button type="button" value="9">9</button>
+        <button type="button" value="0">0</button>
+       <button type="button" class="equal-sign operator" value="=">=</button>
+        <button type="button" class="operator" value="/">/</button>
+
+    </div>
+    
+   <script src="script.js"></script>
+  </body>
+</html>
