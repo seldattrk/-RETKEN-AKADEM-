@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    p {
+      color: black
+    }
+    body {
+      background: url('https://png.pngtree.com/thumb_back/fh260/background/20231028/pngtree-misty-texture-a-captivating-blend-of-blue-and-grey-haze-image_13747568.png') center/cover no-repeat fixed;
+      color: #fff;
+      padding-top: 80px;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      transition: background-color 0.5s;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+      background-color: #fff;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff;
+    }
+
+    .jumbotron {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 2rem 1rem;
+      margin-bottom: 30px;
+    }
+
+    h1, h2 {
+      color: black;
+    }
+
+    .lead {
+    color: white; 
+    
+    }
+
+    .social-icons a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 20px;
+      transition: color 0.5s;
+    }
+
+    .social-icons a:hover {
+      color: #007bff;
+    }
+
+    @media (max-width: 576px) {
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">Benim Hakkımda</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+
+    <h1 class="display-4">Selda Titrek</h1>
+    <p class="lead" >Web Developer</p>
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Çalışmalarım</h2>
+        <p>Üretken Akademi'nin yazılım derslerinde ilk hafta yapmış olduğum hesap makinesi bulunmaktadır. Daha sonra ilerleyen haftalardan basit sadece görünüşte bir sudoku tasarladık.</p>
+        <p>GitHub: <a href="https://github.com/seldattrk/-RETKEN-AKADEM-" target="_blank">GitHub Profilim</a></p>
+      </div>
+      <div class="col-md-6">
+        <h2>İlgi Alanlarım</h2>
+        <p>Necmettin Erbakan Üniversitesi'nde Halk Oyunları Topluluğunda 3 sene aktif olarak faaliyet gösterdim. Ayrıca bu 3 sene içinde 1 sene başkan yardımcılığı, 1 sene de yazmanlık görevi yaptım. Bunun haricinde anonim olarak kısa hikaye alanında yazım hayatım da bulunmaktadır.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+</body>
+</html>
